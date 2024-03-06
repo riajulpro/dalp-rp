@@ -1,0 +1,45 @@
+.trends-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 157px;
+}
+
+.trends-statics {
+  color: #667085;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%; /* 16px */
+  text-transform: capitalize;
+}
+
+.trends-box {
+  border-radius: 8px;
+  background: #f6f6f6;
+  width: 915px;
+  height: 86px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 24px;
+}
+
+@media (max-width: 800px) {
+  .trends-container {
+    width: 90%;
+  }
+  .trends-box {
+    border-radius: 8px;
+    background: #f6f6f6;
+    width: 380px;
+    height: 86px;
+    flex-shrink: 0;
+    margin: 0px auto;
+    padding: 4px;
+  }
+}
