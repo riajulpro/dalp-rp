@@ -4,7 +4,7 @@ import Link from "next/link";
 import "./Navbar.css";
 import { MenuIcon } from "@/utils/icons/EssentialIcons";
 import { useState } from "react";
-import { GradientCircle } from "@/utils/icons/Gradient";
+import { GradientCircle, GradientCircleMobile } from "@/utils/icons/Gradient";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -33,11 +33,14 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="sticky">
+    <div>
+      <div className="gradient-circle">
+        <GradientCircle />
+      </div>
+      <div className="gradient-circle-mobile">
+        <GradientCircleMobile />
+      </div>
       <div className="nav-container">
-        <div className="gradient-circle">
-          <GradientCircle />
-        </div>
         <div className="navbar">
           <div className="logo">Digital Agency</div>
           <div className="menu-icon">
@@ -45,7 +48,7 @@ const Navbar = () => {
               <MenuIcon />
             </button>
           </div>
-          <div className="nav-links">
+          <div className={`nav-links ${nav && "get-position"}`}>
             {links.map((link, index) => (
               <Link key={index} href={link.pathName}>
                 {link.route}

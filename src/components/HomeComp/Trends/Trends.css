@@ -1,10 +1,15 @@
 .trends-container {
+  margin-top: 157px;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 157px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 16px;
-  margin-top: 157px;
+}
+
+.icon-size {
+  width: 140px;
 }
 
 .trends-statics {
@@ -18,28 +23,24 @@
 }
 
 .trends-box {
-  border-radius: 8px;
-  background: #f6f6f6;
-  width: 915px;
-  height: 86px;
-  flex-shrink: 0;
   display: flex;
+  background: #f6f6f6;
+  border-radius: 8px;
   justify-content: space-between;
-  align-items: center;
   padding: 0px 24px;
 }
 
 @media (max-width: 800px) {
   .trends-container {
     width: 90%;
+    margin: 0px auto;
+    margin-top: 120px;
   }
   .trends-box {
-    border-radius: 8px;
-    background: #f6f6f6;
-    width: 380px;
+    text-align: center;
     height: 86px;
-    flex-shrink: 0;
-    margin: 0px auto;
-    padding: 4px;
+  }
+  .icon-size {
+    width: 60px;
   }
 }

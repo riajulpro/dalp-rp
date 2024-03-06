@@ -9,6 +9,11 @@
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -10;
+}
+
+.gradient-circle-mobile {
+  display: none;
 }
 
 .nav-container {
@@ -49,15 +54,27 @@
   .nav-container {
     padding: 20px 0px;
   }
-
+  .gradient-circle {
+    display: none;
+  }
+  .gradient-circle-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    display: block;
+  }
   .navbar {
     width: 90%;
   }
   .nav-links {
     flex-direction: column;
+    justify-content: start;
+    align-items: start;
     position: absolute;
     top: 0;
     right: -100%;
+    gap: 10px;
   }
   .menu-icon {
     display: block;
@@ -70,5 +87,13 @@
   .nav-button {
     background-color: transparent;
     border: none;
+  }
+  .get-position {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: #fff;
+    width: 40%;
+    padding: 12px;
   }
 }

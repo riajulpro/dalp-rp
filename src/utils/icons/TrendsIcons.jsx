@@ -2,8 +2,8 @@ export const SpotifyLogo = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="140"
-      height="48"
+      width="100%"
+      height="100%"
       viewBox="0 0 140 48"
       fill="none"
     >
@@ -26,8 +26,8 @@ export const SlackLogo = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="121"
-      height="48"
+      width="100%"
+      height="100%"
       viewBox="0 0 121 48"
       fill="none"
     >
@@ -59,8 +59,8 @@ export const DropboxLogo = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="163"
-      height="48"
+      width="100%"
+      height="100%"
       viewBox="0 0 163 48"
       fill="none"
     >
@@ -80,8 +80,8 @@ export const ZoomLogo = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="98"
-      height="48"
+      width="100%"
+      height="100%"
       viewBox="0 0 98 48"
       fill="none"
     >
