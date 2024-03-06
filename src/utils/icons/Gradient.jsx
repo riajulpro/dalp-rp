@@ -126,3 +126,46 @@ export const GradientCircleMobile = () => {
     </svg>
   );
 };
+
+export const GradientCircleSecondMobile = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="428"
+      height="1061"
+      viewBox="0 0 428 1061"
+      fill="none"
+    >
+      <g filter="url(#filter0_f_79_21)">
+        <path
+          d="M620 530.5C620 654.488 519.488 755 395.5 755C271.512 755 171 654.488 171 530.5C171 406.512 271.512 306 395.5 306C519.488 306 620 406.512 620 530.5Z"
+          fill="#8EADD5"
+          fill-opacity="0.24"
+        />
+      </g>
+      <defs>
+        <filter
+          id="filter0_f_79_21"
+          x="-135"
+          y="0"
+          width="1061"
+          height="1061"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="BackgroundImageFix"
+            result="shape"
+          />
+          <feGaussianBlur
+            stdDeviation="153"
+            result="effect1_foregroundBlur_79_21"
+          />
+        </filter>
+      </defs>
+    </svg>
+  );
+};

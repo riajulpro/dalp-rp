@@ -8,6 +8,15 @@
   position: relative;
 }
 
+.side-circle {
+  position: absolute;
+  right: 0;
+}
+
+.side-circle-mobile {
+  display: none;
+}
+
 .branding-content {
   max-width: 540px;
 }
@@ -38,6 +47,14 @@
     width: 90%;
     flex-direction: column-reverse;
     justify-content: center;
+  }
+  .side-circle {
+    display: none;
+  }
+  .side-circle-mobile {
+    display: block;
+    position: absolute;
+    right: -10px;
   }
   .branding-title {
     width: 380px;
