@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <div className="footer-container">
         <div className="footer">
-          <div>
+          <div className="center">
             <h4 className="section-title">Digital Agency</h4>
             <p className="footer-description">
               Building digital products, brands & experience
