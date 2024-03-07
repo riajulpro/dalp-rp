@@ -3,11 +3,30 @@
 import Link from "next/link";
 import "./Navbar.css";
 import { MenuIcon } from "@/utils/icons/EssentialIcons";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { GradientCircle, GradientCircleMobile } from "@/utils/icons/Gradient";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [addNavClass, setAddNavClass] = useState(false);
+
+  useEffect(() => {
+    const changeColor = () => {
+      if (window.scrollY > 75) {
+        setAddNavClass(true);
+      } else {
+        setAddNavClass(false);
+      }
+    };
+
+    changeColor();
+
+    window.addEventListener("scroll", changeColor);
+
+    return () => {
+      window.removeEventListener("scroll", changeColor);
+    };
+  }, []);
 
   const navToggler = () => {
     setNav(!nav);
@@ -40,7 +59,7 @@ const Navbar = () => {
       <div className="gradient-circle-mobile">
         <GradientCircleMobile />
       </div>
-      <div className="nav-container">
+      <div className={`${addNavClass ? "new-nav" : "nav-container"}`}>
         <div className="navbar">
           <div className="logo">Digital Agency</div>
           <div className="menu-icon">
