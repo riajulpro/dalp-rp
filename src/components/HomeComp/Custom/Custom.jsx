@@ -17,12 +17,20 @@ const Custom = () => {
             <RightArrow />
           </Link>
         </div>
-        <div>
+        <div className="hide-lg">
           <Image
             src="/images/custom.png"
             alt="custom"
-            width="450"
-            height="450"
+            width={450}
+            height={450}
+          />
+        </div>
+        <div className="hide-sm">
+          <Image
+            src="/images/custom-sm.png"
+            alt="custom"
+            width={380}
+            height={380}
           />
         </div>
       </div>

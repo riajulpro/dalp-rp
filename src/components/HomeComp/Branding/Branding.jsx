@@ -17,12 +17,20 @@ const Branding = () => {
         <GradientCircleSecondMobile />
       </div>
       <div className="branding-container">
-        <div>
+        <div className="hide-lg">
           <Image
             src="/images/branding.png"
             alt="branding"
-            width="450"
-            height="450"
+            width={450}
+            height={450}
+          />
+        </div>
+        <div className="hide-sm">
+          <Image
+            src="/images/branding-sm.png"
+            alt="branding"
+            width={375}
+            height={384}
           />
         </div>
         <div className="branding-content">

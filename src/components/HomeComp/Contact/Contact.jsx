@@ -8,8 +8,8 @@ const Contact = () => {
         <Image
           src="/images/contact.png"
           alt="contact"
-          width="450"
-          height="450"
+          width={450}
+          height={450}
         />
       </div>
       <div className="contact-content">

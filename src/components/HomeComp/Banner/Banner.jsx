@@ -13,8 +13,16 @@ const Banner = () => {
         </p>
         <button className="button-primary">Contact Us</button>
       </div>
-      <div>
-        <Image src="/images/banner.png" alt="Banner" width="450" height="450" />
+      <div className="hide-lg">
+        <Image src="/images/banner.png" alt="Banner" width={450} height={450} />
+      </div>
+      <div className="hide-sm">
+        <Image
+          src={"/images/banner-sm.png"}
+          alt="Banner"
+          width={350}
+          height={358}
+        />
       </div>
     </div>
   );

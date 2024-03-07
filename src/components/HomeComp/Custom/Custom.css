@@ -35,13 +35,13 @@
 
 @media (max-width: 800px) {
   .custom-container {
-    width: 90%;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
   }
   .custom-title {
-    width: 380px;
-    height: 76px;
+    width: 100%;
+    padding: 0 25px;
     flex-shrink: 0;
     color: #272d38;
     text-align: center;
@@ -52,8 +52,8 @@
     text-transform: capitalize;
   }
   .custom-description {
-    width: 380px;
-    height: 53px;
+    width: 100%;
+    padding: 0 25px;
     flex-shrink: 0;
     color: #272d38;
     text-align: center;

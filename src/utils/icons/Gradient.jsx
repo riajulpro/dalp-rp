@@ -2,8 +2,8 @@ export const GradientCircle = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="764"
-      height="661"
+      width="100%"
+      height="100%"
       viewBox="0 0 764 661"
       fill="none"
     >
@@ -45,8 +45,8 @@ export const GradientCircleSecond = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="547"
-      height="1291"
+      width="100%"
+      height="100%"
       viewBox="0 0 547 1291"
       fill="none"
     >
@@ -88,8 +88,8 @@ export const GradientCircleMobile = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="428"
-      height="548"
+      width="100%"
+      height="100%"
       viewBox="0 0 428 548"
       fill="none"
     >
@@ -131,8 +131,8 @@ export const GradientCircleSecondMobile = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="428"
-      height="1061"
+      width="100%"
+      height="100%"
       viewBox="0 0 428 1061"
       fill="none"
     >
