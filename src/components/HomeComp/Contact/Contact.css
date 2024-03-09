@@ -2,15 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 16px;
-  margin-top: 136px;
+  margin-top: 116px;
   border-radius: 20px;
   background: #f6f6f6;
-  padding: 0px 75px;
-}
-
-.contact-content {
-  max-width: 540px;
+  padding: 0 82px;
 }
 
 .contact-title {
@@ -18,8 +13,10 @@
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 100%; /* 64px */
-  text-transform: capitalize;
+  line-height: 100%; /* 48px */
+  width: 361px;
+  height: 102.098px;
+  flex-shrink: 0;
 }
 
 .contact-description {
@@ -27,11 +24,12 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 27.5px; /* 152.778% */
-  text-transform: capitalize;
-  margin-top: 24px;
-  margin-bottom: 40px;
-  max-width: 392px;
+  line-height: 27.5px; /* 171.875% */
+  width: 360px;
+  height: 52.05px;
+  flex-shrink: 0;
+  margin-top: 16px;
+  margin-bottom: 32px;
 }
 
 @media (max-width: 800px) {

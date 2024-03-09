@@ -1,10 +1,11 @@
 .footer-container {
   background: #f6f6f6;
-  margin-top: 140px;
+  margin-top: 133px;
 }
 
 .footer {
   padding: 105px 0px;
+  max-width: 1065px;
   display: flex;
   justify-content: space-between;
 }
@@ -18,7 +19,7 @@
   font-weight: 700;
   line-height: 27.5px; /* 152.778% */
   text-transform: capitalize;
-  margin-bottom: 40px;
+  margin-bottom: 28px;
 }
 
 .footer-links a,

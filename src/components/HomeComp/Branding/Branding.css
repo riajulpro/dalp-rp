@@ -1,11 +1,10 @@
 .branding-container {
-  width: 75%;
-  margin: 0px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 136px;
   position: relative;
+  width: 100%;
 }
 
 .side-circle {
@@ -17,29 +16,34 @@
   display: none;
 }
 
-.branding-content {
+/* .branding-content {
   max-width: 540px;
-}
+} */
 
 .branding-title {
   color: #272d38;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 100%; /* 64px */
+  line-height: 100%; /* 48px */
   text-transform: capitalize;
+  width: 435.687px;
+  height: 102.347px;
+  flex-shrink: 0;
 }
 
 .branding-description {
+  width: 392.217px;
+  height: 83.157px;
+  flex-shrink: 0;
   color: #272d38;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 27.5px; /* 152.778% */
+  line-height: 27.5px; /* 171.875% */
   text-transform: capitalize;
   margin-top: 24px;
-  margin-bottom: 40px;
-  max-width: 392px;
+  margin-bottom: 47px;
 }
 
 @media (max-width: 800px) {

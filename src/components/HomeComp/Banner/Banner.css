@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 97px;
 }
 
 .banner-content {
@@ -26,6 +27,7 @@
   text-transform: capitalize;
   margin-top: 24px;
   margin-bottom: 40px;
+  width: 525px;
 }
 
 @media (max-width: 800px) {

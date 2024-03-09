@@ -1,5 +1,5 @@
 .trends-container {
-  margin-top: 157px;
+  margin-top: 228px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -20,7 +20,7 @@
   justify-content: space-between;
   align-items: center;
   background: #f6f6f6;
-  max-width: 915px;
+  width: 915px;
   height: 86px;
   margin: 0 auto;
   border-radius: 8px;
