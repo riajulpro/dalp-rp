@@ -25,6 +25,10 @@
   margin-top: 46px;
 }
 
+.link {
+  font-size: 16px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;

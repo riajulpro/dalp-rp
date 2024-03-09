@@ -59,24 +59,22 @@ const Header = () => {
       <div className="gradient-circle-mobile">
         <GradientCircleMobile />
       </div>
-      <div
-        className={`${
-          addNavClass ? "content-box new-nav" : "content-box nav-container"
-        }`}
-      >
-        <div className="navbar content-box">
-          <div className="logo">Digital Agency</div>
-          <div className="menu-icon">
-            <button className="nav-button" onClick={navToggler}>
-              <MenuIcon />
-            </button>
-          </div>
-          <div className={`nav-links ${nav && "get-position"}`}>
-            {links.map((link, index) => (
-              <Link key={index} href={link.pathName}>
-                {link.route}
-              </Link>
-            ))}
+      <div className={`${addNavClass ? "new-nav" : "nav-container"}`}>
+        <div className="content-box">
+          <div className="navbar content-box">
+            <div className="logo">Digital Agency</div>
+            <div className="menu-icon">
+              <button className="nav-button" onClick={navToggler}>
+                <MenuIcon />
+              </button>
+            </div>
+            <div className={`nav-links ${nav && "get-position"}`}>
+              {links.map((link, index) => (
+                <Link className="link" key={index} href={link.pathName}>
+                  {link.route}
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </div>
