@@ -9,7 +9,7 @@ import {
 
 const Branding = () => {
   return (
-    <>
+    <section className="content-box">
       <div className="side-circle">
         <GradientCircleSecond />
       </div>
@@ -44,7 +44,7 @@ const Branding = () => {
           </Link>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

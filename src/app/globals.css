@@ -43,6 +43,16 @@ a {
   display: none;
 }
 
+.lg-width {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.content-box {
+  width: 1140px;
+  margin: 0 auto;
+}
+
 @media (max-width: 800px) {
   .hide-sm {
     display: block;

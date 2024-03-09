@@ -3,7 +3,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="contact-container">
+    <div className="content-box contact-container">
       <div className="customer-care">
         <Image
           src="/images/contact.png"

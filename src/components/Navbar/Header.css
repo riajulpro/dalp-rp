@@ -3,9 +3,11 @@
   background-color: white;
   box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2);
   position: fixed;
-  padding: 24px 0px;
+  padding: 24px 12px;
   z-index: 99;
   top: 0;
+  left: 0;
+  right: 0;
 }
 
 .gradient-circle {
@@ -24,8 +26,6 @@
 }
 
 .navbar {
-  width: 75%;
-  margin: 0px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,7 +43,7 @@
 
 .nav-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 44px;
 }

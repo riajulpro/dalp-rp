@@ -1,12 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import "./Navbar.css";
+import "./Header.css";
 import { MenuIcon } from "@/utils/icons/EssentialIcons";
 import { useEffect, useState } from "react";
 import { GradientCircle, GradientCircleMobile } from "@/utils/icons/Gradient";
 
-const Navbar = () => {
+const Header = () => {
   const [nav, setNav] = useState(false);
   const [addNavClass, setAddNavClass] = useState(false);
 
@@ -52,15 +52,19 @@ const Navbar = () => {
   ];
 
   return (
-    <div>
+    <header className="lg-width">
       <div className="gradient-circle">
         <GradientCircle />
       </div>
       <div className="gradient-circle-mobile">
         <GradientCircleMobile />
       </div>
-      <div className={`${addNavClass ? "new-nav" : "nav-container"}`}>
-        <div className="navbar">
+      <div
+        className={`${
+          addNavClass ? "content-box new-nav" : "content-box nav-container"
+        }`}
+      >
+        <div className="navbar content-box">
           <div className="logo">Digital Agency</div>
           <div className="menu-icon">
             <button className="nav-button" onClick={navToggler}>
@@ -76,8 +80,8 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
-export default Navbar;
+export default Header;

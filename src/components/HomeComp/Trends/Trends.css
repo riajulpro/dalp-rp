@@ -1,15 +1,8 @@
 .trends-container {
   margin-top: 157px;
-  width: 75%;
-  margin: 0 auto;
-  margin-top: 157px;
   display: flex;
   flex-direction: column;
   gap: 16px;
-}
-
-.icon-size {
-  width: 140px;
 }
 
 .trends-statics {
@@ -24,9 +17,13 @@
 
 .trends-box {
   display: flex;
-  background: #f6f6f6;
-  border-radius: 8px;
   justify-content: space-between;
+  align-items: center;
+  background: #f6f6f6;
+  max-width: 915px;
+  height: 86px;
+  margin: 0 auto;
+  border-radius: 8px;
   padding: 0px 24px;
 }
 
@@ -39,8 +36,5 @@
   .trends-box {
     text-align: center;
     height: 86px;
-  }
-  .icon-size {
-    width: 60px;
   }
 }

@@ -3,9 +3,9 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <>
+    <footer className="lg-width">
       <div className="footer-container">
-        <div className="footer">
+        <div className="footer content-box">
           <div className="center">
             <h4 className="section-title">Digital Agency</h4>
             <p className="footer-description">
@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyright">© Matheus. Todos os direitos reservados</div>
-    </>
+    </footer>
   );
 };
 

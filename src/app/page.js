@@ -7,7 +7,7 @@ import Trends from "@/components/HomeComp/Trends/Trends";
 
 const HomePage = () => {
   return (
-    <main>
+    <main className="lg-width">
       <Banner />
       <Trends />
       <Branding />

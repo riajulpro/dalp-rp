@@ -5,7 +5,7 @@ import { RightArrow } from "@/utils/icons/EssentialIcons";
 
 const Custom = () => {
   return (
-    <>
+    <section className="content-box">
       <div className="custom-container">
         <div className="custom-content">
           <h1 className="custom-title">Custome & Plugin Development</h1>
@@ -34,7 +34,7 @@ const Custom = () => {
           />
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

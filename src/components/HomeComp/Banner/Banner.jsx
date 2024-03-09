@@ -3,7 +3,7 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div className="banner-container">
+    <section className="content-box banner-container">
       <div className="banner-content">
         <h1 className="banner-title">
           Building digital products, brands & experience
@@ -24,7 +24,7 @@ const Banner = () => {
           height={358}
         />
       </div>
-    </div>
+    </section>
   );
 };
 
